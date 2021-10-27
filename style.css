@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.swiggyheading{
+    position: relative;
+    width: 54%;
+    display: flex; 
+    justify-content: flex-end;
+}
+.svgimg{
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    fill: #fc8019;
+    top: 57%;
+    left: 10px;
+}
+.log{
+    margin: 25px 0 0;
+    font-size: 6px;
+    padding: 4px 10px;
+}
+.logbut{
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+.logbut:hover{
+    color: rgb(253, 103, 103);
+}
+.signbut{
+    background: black;
+    border: none;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+    margin-right: 20px;
+}
+.scrolhead{
+    position: absolute;
+    top: 70px;
+    left: 75px;
+    
+}
+.scrolhead h1{
+    font-size: 15px;
+}
+.scrolhead h2{
+    font-size: 9px;
+    margin: 2px 0 0;
+    font-weight: normal;
+    opacity: .5;
+}
+.searchbar{
+    margin: 17px 0 0;
+    display: flex;
+    position: relative;
+}
+.searchbar .loc{
+    position: absolute;
+    top: 0%;
+    right: 65px;
+}
+.searchbar .loc a{
+    text-decoration: none;
+    color: grey;
+    font-size: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+.searchbar .loc a:hover{
+    background: rgb(235, 232, 232);
+}
+.searchbar input{
+    height: 23px;
+    width: 192px;
+}
+.searchbar input::placeholder{
+    font-size: 6.5px;
+    font-weight: bold;
+    border: none;
+    opacity: .8;
+    padding-left: 5px;
+    transform: translateY(-2px);
+}
+
+.labelfind{
+    font-size: 6px;
+    width: 58px;
+    height: 23px;
+    background-color: #fc8019;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.bottomloc{
+    width: 230px;
+    position: relative;
+}
+.bottomloc h1{
+    font-size: 6px;
+    opacity: .4;
+    margin: 10px 0 0 0;
+}
+.bottomloc span:nth-child(2){
+    font-size: 6px;
+    opacity: .8;
+    margin: 0px;
+}
+.bottomloc span:nth-child(3){
+    font-size: 6px;
+    position: absolute;
+    opacity: .8;
+}
+.firstimg{
+    position: absolute;
+    width: 45%;
+    top: -55px;
+    right: 0%;
+}
+.footbottom span{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 6px;
+    color: grey;
+    font-weight: bolder;
+}
+.fstimg{
+    width: 100%;
+    display: flex;
+
+}
+.middle{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: #2b1e16;
+    top: 170px;
+}
+.fstlayer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 35px;
+}
+.scndlayer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-self: center;
+    position: relative;
+    top: -10px;
+    margin: 0 35px;
+}
+.inside{
+    width: 50px;
+    height: 85px;
+}
+.lb{
+    text-align: center;
+}
+
+.lb label{
+    font-size: 7px;
+    font-weight: bold;
+    color: white;
+    
+}
+#h1tag{
+    position: relative;
+    display: block;
+}
+.lb p{
+    font-size: 6px;
+    color: white;
+    font-weight: normal;
+    opacity: .7;
+    line-height: 140%;
+    margin: 2px 0 0;
+    text-shadow: 0 0 20px #2b1e16;
+}
+.middlelayer{
+    width: 100%;
+    height: 180px;
+    background-color: aliceblue;
+    position: relative;
+    top: 160px;
+}
+.textlayer{
+    margin: 60px 0 0 75px;
+    font-size: 7px;
+}
+.textlayer p{
+    margin: 6px 0 0;
+    font-size: 8px;
+}
+.textlayer img{
+    width: 75px;
+    margin-right: 5px;
+}
+.phone1{
+    position: absolute;
+    top: -50px;
+    left: 45%;
+}
+.phone2{
+    position: absolute;
+    bottom: -5px;
+    left: 67%;
+}
+.phone2 img{
+    width: 152px;
+    height: 200px;
+}
+.phone1 img{
+    width: 150px;
+    height: 200px;
+}
+.footer{
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+.foottop{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 6.5px;
+    margin: 32px 12%;
+    border-bottom: .1px solid grey;
+}
+.foottop label{
+    font-size: 5px;
+    font-weight: bolder;
+    letter-spacing: .4px;
+    color: grey;
+}
+.foottop ul li{
+    list-style: none;
+    line-height: 15px;
+}
+.foottop ul li a{
+    text-decoration: none;
+    color: rgb(220, 221, 221);
+    
+}
+ul li{
+    transition: scale(1) 1s;
+}
+ul li:hover{
+    transform: scale(1.02);
+    
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.footbottom{
+    position: relative;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 6.5px;
+    margin: 40px 12% 0;
+    border-bottom: .1px solid grey;
+}
+.footbottom li{
+    list-style: none;
+    line-height: 15px;
+}
+.footbottom li a{
+    text-decoration: none;
+    color: rgb(220, 221, 221);
+}
+li{
+    transition: scale(1) 1s;
+}
+.footbottom li:hover{
+    transform: scale(1.02);
+    
+}
+.footbottom li a:hover{
+    color: rgb(255, 255, 255);
+} 
+.footerlower{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 6.5px;
+    margin: 10px 12%;
+}
+.apps img{
+    width: 75px;
+    margin: 0 0 10px 0;
+}
+.apps li{
+    list-style: none;
+}
+.apps li{
+    transition: scale3d();
+    transition-delay: 50ms;
+}
+.apps li:hover{
+    transform: scale3d(1.05,1.05,1.05); 
+}
+.logoswiggy img{
+    width: 60px;
+}
+.copy{
+    font-size: 7px;
+}
+.social{
+    display: flex;
+}
+.social li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 10px;
+}
+.social li a{
+    text-decoration: none;
+    color: rgb(220, 221, 221);
+    
+}
+.social li{
+    transition: scale(1) 1s;
+}
+.list:hover{
+    transform: scale(1.2);
+    
+}
+.list a:hover{
+    color: rgb(255, 255, 255);
+} 
